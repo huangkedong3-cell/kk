@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.npm-cache/
+.ms-playwright/
+output/
+.DS_Store
