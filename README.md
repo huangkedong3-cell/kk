@@ -32,13 +32,16 @@ npm run build
 
 ## Cloudflare Pages 部署
 
+已连接到 Cloudflare Pages 项目 `gensheng-law-firm`。
+
 推荐设置：
 
+- 生产分支：`main`
 - 构建命令：`npm run build`
 - 输出目录：`dist`
 - Node.js 版本：20 或更新版本
 
-可以将本项目推送到 GitHub 后，在 Cloudflare Pages 中连接仓库部署。
+GitHub `main` 分支后续每次更新都会触发 Cloudflare Pages 自动构建。
 
 ## 图片来源
 
