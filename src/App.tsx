@@ -22,24 +22,12 @@ const promises = [
   "保密承诺：严格保护客户机密信息，不向第三方披露或泄露。",
 ];
 
-function LogoMark() {
-  return (
-    <svg className="logo-mark" viewBox="0 0 283 101" role="img" aria-labelledby="logo-title">
-      <title id="logo-title">亘盛律师事务所</title>
-      <text className="logo-latin" x="0" y="42">
-        G<tspan className="logo-blue">E</tspan>NSH<tspan className="logo-blue">E</tspan>NG
-      </text>
-      <text className="logo-cn" x="0" y="90">亘 盛 律 师 事 务 所</text>
-    </svg>
-  );
-}
-
 function App() {
   return (
     <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="返回首页">
-          <LogoMark />
+          <img className="brand-logo" src="/gensheng-logo.png" alt="亘盛律师事务所" />
         </a>
         <nav>
           <a href="#services">业务</a>
